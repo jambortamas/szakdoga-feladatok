@@ -20,7 +20,8 @@ class Feladat_11 {
             }
 
         }
-
+        
+        
         return count;
 
     }
