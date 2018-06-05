@@ -27,9 +27,7 @@ class Feladat_13 {
 
         }
 
-        System.out.println("szo: " + szo.toString() + " | szoForditva: " + szoForditva.toString());
-
-        return szo.toString() == szoForditva.toString();
+        return szo.toString().equals(szoForditva.toString());
 
     }
 
