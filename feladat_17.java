@@ -9,12 +9,15 @@ class Feladat_17 {
     static void squareASCII() {
 
         // 65 A -> 122 z
-        for( int i = 65; i <= 122; i++ ) {
+        int a = (int)'a';
+        int z = (int)'z';
+
+        for( int i = a; i <= z; i++ ) {
 
 
             if( Math.pow( (int)Math.sqrt(i), 2 ) == i ) {
 
-                System.out.print( (char)i );
+                System.out.print( (char)i + " ");
 
             }
 
