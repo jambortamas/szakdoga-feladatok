@@ -13,7 +13,7 @@ class Feladat_14 {
 
         for( int i=0; i < words.length; i++ ) {
 
-            newString.append( Character.toUpperCase(words[i].charAt(0)) + words[i].substring(1) + " " );
+            newString.append( words[i].substring(0,1).toUpperCase() + words[i].substring(1) + " " );
 
         }
 
